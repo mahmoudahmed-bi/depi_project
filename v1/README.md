@@ -28,30 +28,27 @@ It extracts URLs and attachments from emails, submits them to VirusTotal for ana
 ```bash
 git clone https://github.com/mahmoudahmed-bi/depi_project.git
 cd depi_project
-
----
+```
 
 ### 2. Install Dependencies
 ```bash
 pip install -r requirements.txt
-
----
+```
 
 ### 3. Set VirusTotal API Key
 ```bash
 export VT_API_KEY="YOUR_API_KEY"
-
+```
 ```powershell
 setx VT_API_KEY="YOUR_API_KEY"
-
----
+```
 
 ### 4. Usage
 ```bash
 python3 scanner.py https://example.com
-
----
+```
 
 ### 5. Expected output
 ```ini
 malicious=6 suspicious=1 stats={'harmless': 70, 'malicious': 6, 'suspicious': 1, 'undetected': 13, 'timeout': 0}
+```
