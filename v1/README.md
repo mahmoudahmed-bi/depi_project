@@ -38,10 +38,10 @@ pip install -r requirements.txt
 ### 3. Set VirusTotal API Key
 ```bash
 export VT_API_KEY="YOUR_API_KEY"
-```
+```bash
 ```powershell
 setx VT_API_KEY="YOUR_API_KEY"
-```
+```powershell
 
 ### 4. Usage
 ```bash
