@@ -1,0 +1,11 @@
+Subject: Meeting Reminder
+
+Hi John,
+
+Just a reminder about our meeting tomorrow at 10 AM.
+Here is the link to the agenda: https://google.com/calendar
+
+See you there!
+
+Best,
+Alice

@@ -1,0 +1,10 @@
+Subject: URGENT: Verify your account immediately!
+
+Dear User,
+
+We noticed suspicious activity on your account. Please click here to verify your identity: http://fake-bank.com/login
+
+If you do not act now, your account will be locked.
+
+Regards,
+Security Team

@@ -1,0 +1,6 @@
+Subject: You have won a prize!
+
+Congratulations! You have won a gift card.
+Please visit our official site to claim it: https://amazon.com
+
+(Note: "You have won" and "gift card" are keywords, but amazon.com is trusted)
