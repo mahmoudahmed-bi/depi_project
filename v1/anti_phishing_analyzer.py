@@ -10,6 +10,7 @@ from tqdm import tqdm
 import json
 import sys
 from groq import Groq
+from vt_url_check import check_url
 
 # List of common phishing keywords
 PHISHING_KEYWORDS = [
@@ -322,6 +323,14 @@ def cli_menu():
                 if suspicious_urls:
                     print(Fore.RED + "Suspicious URLs Found:" + Style.RESET_ALL)
                     print(tabulate([[url] for url in suspicious_urls], headers=["Suspicious URLs"]))
+                    results = []
+                    for u in suspicious_urls:
+                        info = check_url(u)
+                        results.append(info)
+                    print("\nThe reputation of the URL per VirusTotal:")
+                    for r in results:
+                        print(f"- malicious={r['malicious']} \n- suspicious={r['suspicious']}")
+
                 else:
                     print(Fore.GREEN + "No Suspicious URLs Found." + Style.RESET_ALL)
 
