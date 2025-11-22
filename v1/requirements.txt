@@ -1,0 +1,7 @@
+tldextract
+fpdf
+colorama
+tabulate
+tqdm
+groq
+requests
