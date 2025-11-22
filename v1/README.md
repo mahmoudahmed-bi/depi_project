@@ -1,3 +1,5 @@
+# This README will be updated soon with the latest differences
+
 # Email Security Scanner v1
 
 A simple email inspection tool that detects **malicious URLs** and **suspicious file attachments** using the **VirusTotal API**.  
